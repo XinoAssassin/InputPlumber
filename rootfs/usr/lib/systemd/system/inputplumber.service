@@ -2,7 +2,7 @@
 Description=InputPlumber Service
 
 [Service]
-Environment=LOG_LEVEL=info
+Environment=LOG_LEVEL=debug
 ExecStart=/usr/bin/inputplumber
 
 [Install]
